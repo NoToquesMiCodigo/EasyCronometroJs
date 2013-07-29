@@ -1,4 +1,4 @@
 EasyCronometroJs
 ================
 
-Cronometro simple implementado en javascript
+Cronómetro simple implementado en javascript
