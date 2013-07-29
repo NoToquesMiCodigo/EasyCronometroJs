@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Mi Cronometro</title>
+    <style>
+      #reloj {
+        font-size:4em;
+      }
+    </style>
+    <script src="crono.js"></script>
+  </head> 
+  <body>
+    <script>
+        var cronometro = new Cronometro();
+    </script>
+    <button onclick="cronometro.iniciar()">Inicio</button>
+    <button onclick="cronometro.detener()">Detener</button>
+    <button onclick="cronometro.reiniciar()">Reiniciar</button>
+    <br/>
+    <div id="reloj">
+      0:0
+    </div>
+  </body>
+</html>
